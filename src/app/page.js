@@ -14,9 +14,9 @@ export default function Home() {
   <>
     <header className="flex justify-between items-center">
       <Link href={'/'} className="text-primary text-2xl font-semibold">Diva Pizza</Link>
-      <nav className="flex gap-4">
+      <nav className="flex items-center gap-8 font-semibold text-gray-600">
        {links.map((link, i) => (
-        <Link key={i} href={link.href}>{link.title}</Link>
+        <Link className={link.title ==="Login" && "bg-primary py-2 px-8 text-white rounded-full"} key={i} href={link.href}>{link.title}</Link>
        ))}
       </nav>
     </header>
