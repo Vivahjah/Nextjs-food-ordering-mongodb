@@ -12,9 +12,9 @@ const MenuItem = () => {
       <p className="text-gray-500 text-sm my-4">
         Lorem ipsum dolor sit amet, cosecteur adipisicing elit
       </p>
-      <buttn className="mt-4 bg-primary text-white rounded-full px-8 py-2">
+      <button className=" bg-primary text-white rounded-full px-8 py-2">
         Add to cart $12
-      </buttn>
+      </button>
     </div>
   );
 };
