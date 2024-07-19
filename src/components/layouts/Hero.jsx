@@ -4,9 +4,9 @@ import Right from "../icons/Right";
 
 const Hero = () => {
   return (
-    <section className="hero">
+    <section className="hero mt-8">
       <div className="py-12">
-        <h1 className="text-5xl font-semibold leading-[3.7rem]">
+        <h1 className="text-5xl text-gray-800 font-semibold leading-[3.7rem]">
           Everything <br /> is better  <br />with a  <span className="text-primary">Pizza</span> 
         </h1>
         <p className="my-6 text-gray-500 text-sm">
