@@ -16,7 +16,7 @@ input[type="text"] {
 input[type="email"]:disabled,
 input[type="password"]:disabled,
 input[type="text"]:disabled {
-    @apply bg-gray-500;
+    @apply bg-gray-100 cursor-not-allowed;
 }
 
 button {

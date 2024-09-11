@@ -53,9 +53,16 @@ const ProfilePage = () => {
       <h1 className="text-center text-primary text-4xl mb-4">
         Profile
       </h1>
-      <form className="max-w-xs mx-auto border">
+      <form className="max-w-md mx-auto ">
+        <div className="flex gap-2 items-center">
         <div className="">
-          <Image src={session?.data?.user?.image} width={64} height={64} alt="profileImage"/>
+          <Image src={session?.data?.user?.image} width={80} height={80} alt="profileImage"/>
+        </div>
+        <div className="grow">
+          <input type="text" placeholder="First and last Name" />
+          <button type="submit">Save</button>
+        </div>
+
         </div>
       </form>
     </section>
